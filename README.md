@@ -42,28 +42,30 @@ Includes an **Admin Dashboard** for visualizing user data.
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
-```bash
+
 git clone https://github.com/your-username/ai-resume-analyzer.git
 cd ai-resume-analyzer
-2️⃣ Create a virtual environment
+
+###2️⃣ Create a virtual environment
+
 bash
 Copy
 Edit
 python -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate     # Windows
-3️⃣ Install dependencies
+###3️⃣ Install dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
-4️⃣ Install NLP models
+###4️⃣ Install NLP models
 bash
 Copy
 Edit
 python -m nltk.downloader all
 python -m spacy download en_core_web_sm
-5️⃣ Set up MySQL database
+###5️⃣ Set up MySQL database
 sql
 Copy
 Edit
@@ -93,7 +95,7 @@ connection = pymysql.connect(
     password='YOUR_PASSWORD',
     db='cv'
 )
-6️⃣ Run the app
+###6️⃣ Run the app
 bash
 Copy
 Edit
@@ -115,6 +117,5 @@ This project is licensed under the MIT License.
 
 👨‍💻 Developed by Prakhar Sharma
 
-vbnet
 Copy
 Edit
